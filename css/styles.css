@@ -1,6 +1,7 @@
-body {
+body:root {
 font-family: 'Roboto', sans-serif;
 color: var(--slate, #434455);
+background-color: #FFFFFF;
 }
 
 .link {
@@ -115,6 +116,14 @@ letter-spacing: 0.02em;
 text-transform: capitalize;
 }
 
+.team {
+background-color: #F4F4FD;
+}
+
+.team-list {
+    background-color: #FFFFFF;
+}
+ 
 .team-list-name {
 color: var(--navyblue, #2E2F42);
 text-align: center;
@@ -144,6 +153,11 @@ letter-spacing: 0.02em;
 }
 
 .filter-btn {
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
 background-color: var(--cloud, #F4F4FD);
 color: var(--iris, #4D5AE5);
 cursor: pointer;
@@ -151,7 +165,7 @@ cursor: pointer;
 
 .filter-btn:hover {
 background-color: var(--ocean, #404BBF);
-color: var(--white, #FFF);
+color: #FFFFFF;
 }
 
 .project-card-description {
@@ -177,7 +191,7 @@ background-color: var(--navyblue, #2E2F42);
 .footer-logo {
 color: var(--iris, #4D5AE5);
 font-size: 18px;
-font-family: Raleway;
+font-family: Raleway, sans-serif;
 font-style: normal;
 font-weight: 800;
 line-height: 1.17;
