@@ -1,4 +1,4 @@
-body:root {
+body {
 font-family: 'Roboto', sans-serif;
 color: var(--slate, #434455);
 background-color: #FFFFFF;
@@ -28,7 +28,7 @@ text-transform: uppercase;
 }
 
 .header-menu-link {
-color: var(--navyblue, #2E2F42);
+color: var(--slate, #434455);
 font-size: 16px;
 font-style: normal;
 font-weight: 500;
@@ -135,6 +135,7 @@ letter-spacing: 0.02em;
 }
 
 .team-list-position {
+color: #434455;
 text-align: center;
 font-size: 16px;
 font-style: normal;
@@ -163,7 +164,7 @@ color: var(--iris, #4D5AE5);
 cursor: pointer;
 }
 
-.filter-btn:hover {
+.filter-btn:hover, .filter-btn:focus {
 background-color: var(--ocean, #404BBF);
 color: #FFFFFF;
 }
