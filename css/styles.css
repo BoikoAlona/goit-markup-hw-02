@@ -56,6 +56,10 @@ body {
     letter-spacing: 0.02em;
 }
 
+.header-contacts-link {
+    color: #434455;
+}
+
 .header-contacts-link:hover, .header-contacts-link:focus {
     color: #404BBF;
 }
@@ -160,7 +164,7 @@ h2 {
     letter-spacing: 0.02em;
 }
 
-.filter-btn {
+.list-filter {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -171,12 +175,12 @@ h2 {
     cursor: pointer;
 }
 
-.filter-btn:hover, .filter-btn:focus {
+.list-filter:hover, .list-filter:focus {
     background-color: #404BBF;
     color: #FFFFFF;
 }
 
-.project-card-description {
+.project-item-description {
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
@@ -184,7 +188,7 @@ h2 {
     letter-spacing: 0.02em;
 }
 
-.project-card-specific {
+.project-item-specific {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
