@@ -186,6 +186,7 @@ h2 {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
 .project-item-specific {
@@ -194,6 +195,7 @@ h2 {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: #434455;
 }
 
 .footer {
